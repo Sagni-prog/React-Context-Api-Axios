@@ -1,0 +1,55 @@
+.profile_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 6.8rem;
+    margin-bottom: 6.4rem;
+    margin-left: 4rem;
+    gap: 5rem;
+}
+.comment_profile{
+    width: 5rem;
+    height: 5rem;
+   
+}
+.comment_profile img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.comment_form{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  
+}
+
+textarea{
+    border-radius: 3px;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    resize: none;
+    width: 100%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: rgb(19, 109, 192) solid 2px;
+}
+textarea::placeholder{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #444;
+}
+.comment_btn{
+    width: 9rem;
+    height: 4.5rem;
+    font-size: 1.6rem;
+    background-color: rgba(12, 204, 60, 0.849);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
